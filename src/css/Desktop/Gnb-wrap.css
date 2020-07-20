@@ -1,0 +1,94 @@
+.gnb-wrap {
+    width: 1200px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin-top: 10px;
+}
+
+/*내비 리스트*/
+.gnb-items-list {}
+
+/*내비 아이템*/
+.gnb-item {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-right: 10px;
+   
+}
+
+.gnb-item:last-child {
+    margin-right: 0;
+}
+
+/*내비 버튼*/
+.gnb-btn {
+    width: 100%;
+    display: block;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+     opacity: 0.3;
+}
+
+/*모양 만들기*/
+.gnb-btn-shapes {
+   
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    position: absolute;
+    background: #fff;
+}
+.gnb-btn-shapes:nth-child(1){
+     top: -10px;
+    left: -10px;
+}
+.gnb-btn-shapes:nth-child(2) {
+
+    bottom: -10px;
+    right: -10px;
+   
+}
+
+.gnb-btn-text {
+    height: 100%;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+/*==============================이벤트==============================*/
+.gnb-btn.on {
+    opacity: 1;
+}
+.gnb-btn.to-ad.on{
+    background: #fe4c40;
+}
+.gnb-btn.to-logo.on{
+    background: #6495ed;
+}
+.gnb-btn.to-image.on{
+    background: #906aa5;
+}
+.gnb-btn:hover{
+    opacity: 0.7;
+}
+.gnb-btn.on:hover{
+    opacity: 1;
+}
+.gnb-btn.to-ad:hover{
+    background: #fe4c40;
+}
+.gnb-btn.to-logo:hover{
+    background: #6495ed;
+}
+.gnb-btn.to-image:hover{
+    background: #906aa5;
+}
+.header-container.fixed .gnb-wrap {
+    margin-top: 0px;
+}

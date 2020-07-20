@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title":"감성 영화 모음 배너 광고",
+    "image_src":"item_image_001",
+    "tag":"ad",
+    "description":"혼자 집에서 영화 보는 걸 좋아해서 만들었습니다."
+  },
+  {
+    "id": 2,
+    "title":"다이어트 소스 배너 광고",
+    "image_src":"item_image_002",
+    "tag":"ad",
+    "description":"다이어트 소스를 검색하다 만들었습니다."
+  },
+  {
+    "id": 3,
+    "title":"인물 보정 #1",
+    "image_src":"item_image_003",
+    "tag":"image",
+    "description":"인물 보정입니다."
+  },
+  {
+    "id": 4,
+    "title":"흑백 보정 #1",
+    "image_src":"item_image_004",
+     "tag":"image",
+    "description":"흑백으로 보정했습니다."
+  },
+  {
+    "id": 5,
+    "title":"반려동물 호텔 배너 광고 ",
+    "image_src":"item_image_005",
+     "tag":"ad",
+    "description":"드라마 로고를 보고 재밋어 보여서 만들었습니다."
+  },
+  {
+    "id": 6,
+    "title":"반려동물 가능 펜션 광고",
+    "image_src":"item_image_006",
+     "tag":"ad",
+    "description":"휴가 기사를 보고 만들었습니다."
+  },
+  {
+    "id": 7,
+    "title":"패션 위크",
+    "image_src":"item_image_007",
+     "tag":"ad",
+    "description":"텍스트와 이미지가 교차되는 생각을 하며 만들었습니다."
+  },
+  {
+    "id": 8,
+    "title":"비타 500 배너 광고",
+    "image_src":"item_image_008",
+     "tag":"ad",
+    "description":"비타 500 웹페이지 광고를 보고 구성을 광고로 만들었습니다."
+  },
+  {
+    "id": 9,
+    "title":"LOCHI 로고",
+    "image_src":"item_image_009",
+     "tag":"logo",
+    "description":"개인 웹사이트에 사용하는 파비콘 로고입니다."
+  }
+  
+]

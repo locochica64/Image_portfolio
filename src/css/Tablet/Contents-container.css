@@ -1,0 +1,110 @@
+.contents-container{
+    height: auto;
+    width: 100%;
+    padding-top: 150px;
+}
+.grid-items-list{
+   width: calc(100% - 20px);
+margin-left: 10px;
+    
+    overflow: hidden;
+}
+.grid-item{
+    display: block;
+    width: calc(33% - 10px);
+    
+    margin-bottom: 10px;
+}
+.grid-criterion{
+    margin-bottom: 0;
+}
+/*이미지 영역*/
+.grid-item-img{
+    width: 100%;
+    height: auto;
+}
+.grid-item-img img{
+    width: 100%;
+    display: block;
+}
+
+
+.grid-item.gigante{
+    width: 0px;
+}
+.detail-view-wrap{
+    display: none;
+}
+.detail-view{
+    background: #fff;
+    width: 50vw;
+    height: 65vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+}
+.detail-image-wrap{
+    width: 100%;
+    height: 50vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.detail-image{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.detail-text-wrap{
+    background: #fff;
+    height: 15vw;
+}
+.detail-text-title,
+.detail-text-desc{
+    width: calc(100% - 20px);
+    left: 10px;
+}
+.detail-text-title{
+    font-size: 1.3rem;
+    height: 6vw;
+    line-height: 6vw;
+    border-bottom: 1px solid #ddd;
+    
+     text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.detail-text-desc{
+    height: 9vw;
+    line-height: 4.5vw;
+    overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.detail-image-black{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+/*************************이벤트*************************/
+.detail-view-wrap.on{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    z-index: 99;
+    display: block;
+}

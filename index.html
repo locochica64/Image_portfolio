@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- =============================타이틀============================= -->
+  <title>Lochi's_image_portfolio</title>
+  <!-- =============================폰트어썸============================= -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <!-- ===============================바벨=============================== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.10.1/polyfill.js"></script>
+  <!--Json-->
+  <script src="https://polyfill.io/v3/polyfill.js?features=fetch"></script>
+  <!-- ==============================웹폰트============================== -->
+  <style>
+    /*본고딕*/
+    @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+    /*font-family: 'Noto Sans KR', sans-serif;*/
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+    /*font-family: 'Roboto', sans-serif;*/
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap');
+    /*font-family: 'Oswald', sans-serif;*/
+  </style>
+  <!-- ===========================외부스크립트=========================== -->
+  <!-- Masonry -->
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <!-- ==============================CSS============================== -->
+  <!-- BASIC -->
+  <link rel="stylesheet" href="./src/css/normalize.css">
+  <link rel="stylesheet" href="./src/css/Common.css">
+  <!--모바일-->
+  <link rel="stylesheet" href="./src/css/Mobile/Header-container.css" media="(max-width:639px)">
+  <link rel="stylesheet" href="./src/css/Mobile/Gnb-wrap.css" media="(max-width:639px)">
+  <link rel="stylesheet" href="./src/css/Mobile/Contents-container.css" media="(max-width:639px)">
+  <!--태블릿-->
+  <link rel="stylesheet" href="./src/css/Tablet/Header-container.css" media="(max-width:1199px) and (min-width:640px)">
+  <link rel="stylesheet" href="./src/css/Tablet/Gnb-wrap.css" media="(max-width:1199px) and (min-width:640px)">
+  <link rel="stylesheet" href="./src/css/Tablet/Contents-container.css"
+    media="(max-width:1199px) and (min-width:640px)">
+  <!--태블릿-->
+  <link rel="stylesheet" href="./src/css/Desktop/Header-container.css" media="(min-width:1200px)">
+  <link rel="stylesheet" href="./src/css/Desktop/Gnb-wrap.css" media="(min-width:1200px)">
+  <link rel="stylesheet" href="./src/css/Desktop/Contents-container.css" media="(min-width:1200px)">
+  <!-- ============================JavaScript============================ -->
+  <!-- BASIC -->
+  <script type="text/babel" src="./src/js/Common.js"></script>
+  <!-- 데이터 가져오기 -->
+  <script type="text/babel" src="./src/js/GetItemsData.js"></script>
+  <script type="text/babel" src="./src/js/SetItemsData.js"></script>
+
+  <!-- 아이템 이벤트 -->
+  <script type="text/babel" src="./src/js/GridBtnEvt.js"></script>
+
+</head>
+
+<body>
+  <!-- 전체 감싸기 -->
+  <div class="wrap">
+    <!-- ============헤더영역============ -->
+    <header class="header-container">
+
+      <!-- 타이틀 -->
+      <a href="#" class="header-title">
+        Locochica.com
+      </a>
+      <!-- 서브 타이틀 -->
+      <h2 class="header-sub-title">
+        portfolio
+      </h2>
+      <!-- 내비게이션 -->
+      <nav class="gnb-wrap">
+        <ul class="gnb-items-list clear">
+          <li class="gnb-item">
+            <a href="#" class="gnb-btn to-all" data-tag="all">
+              <div class="gnb-btn-shapes"></div>
+              <div class="gnb-btn-shapes"></div>
+              <p class="gnb-btn-text">ALL</p>
+            </a>
+          </li>
+          <li class="gnb-item">
+            <a href="#" class="gnb-btn to-ad" data-tag="ad">
+              <div class="gnb-btn-shapes"></div>
+              <div class="gnb-btn-shapes"></div>
+              <p class="gnb-btn-text">AD</p>
+            </a>
+          </li>
+          <li class="gnb-item">
+            <a href="#" class="gnb-btn to-logo" data-tag="logo">
+              <div class="gnb-btn-shapes"></div>
+              <div class="gnb-btn-shapes"></div>
+              <p class="gnb-btn-text">LOGO</p>
+            </a>
+          </li>
+          <li class="gnb-item">
+            <a href="#" class="gnb-btn to-image" data-tag="image">
+              <div class="gnb-btn-shapes"></div>
+              <div class="gnb-btn-shapes"></div>
+              <p class="gnb-btn-text">IMG</p>
+            </a>
+
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- 컨텐츠  -->
+    <section class="contents-container">
+      <ul class="grid grid-items-list clear">
+        <!-- <li class="gird-item"></li>  -->
+
+      </ul>
+      <!--view-->
+      <div class="detail-view-wrap">
+
+      </div>
+    </section>
+    <div class="background-container">
+      <!--          <img src="#" alt="">-->
+    </div>
+  </div>
+  <script>
+
+  </script>
+</body>
+
+</html>
