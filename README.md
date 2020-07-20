@@ -4,8 +4,8 @@
 
 #1 ver.0.1.0
 
-date(만든 날짜) : 200720 
+- Date(만든 날짜) : 200720 
 
-Time required(소요 시간) : 6h
+- Time required(소요 시간) : 6h
 
-used library(사용 라이브러리) : masonry-layout
+- Used library(사용 라이브러리) : masonry-layout
